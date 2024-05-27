@@ -75,8 +75,9 @@ span {
 
 .calendar {
     margin-top: 10px;
-    font-size: 12px; /* Smaller font size for the calendar */
+    font-size: 10px; /* Smaller font size for the calendar */
 }
+
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
