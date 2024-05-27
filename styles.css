@@ -14,9 +14,9 @@ body {
 }
 
 .header {
-    font-size: 24px;
+    font-size: 36px; /* Increase font size slightly for visibility */
     color: #aaa;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .names {
@@ -24,7 +24,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .name {
@@ -34,21 +34,21 @@ body {
 
 .name.left img,
 .name.right img {
-    width: 150px; /* Larger size for the flower images */
+    width: 100px; /* Adjust image size */
     height: auto;
 }
 
 .name h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 64px; /* Bigger font size for the names */
+    font-size: 48px; /* Adjust font size for the names */
     color: #556b2f;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .names span {
-    font-size: 64px; /* Bigger font size for the & symbol */
+    font-size: 48px; /* Adjust font size for the & symbol */
     color: #556b2f;
-    margin: 20px 0; /* Add margin to separate the & symbol */
+    margin: 10px 0; /* Adjust margin for better spacing */
 }
 
 .details {
@@ -61,7 +61,7 @@ body {
 
 .date h2, .time h2, .location h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 24px; /* Smaller font size */
+    font-size: 24px; /* Font size for section headers */
     color: #556b2f;
 }
 
@@ -71,7 +71,7 @@ body {
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
-    font-size: 18px; /* Smaller font size */
+    font-size: 18px; /* Font size for month */
     color: #aaa;
     margin-bottom: 10px;
 }
@@ -79,30 +79,30 @@ body {
 .calendar .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 5px; /* Smaller gap */
+    gap: 5px; /* Gap between days */
     font-family: 'Lora', serif;
-    font-size: 14px; /* Smaller font size */
+    font-size: 14px; /* Font size for days */
     color: #aaa;
 }
 
 .calendar .days span {
     text-align: center;
-    padding: 5px; /* Smaller padding */
+    padding: 5px; /* Padding for days */
 }
 
 .calendar .days .highlight {
     color: #556b2f;
-    border: 1px solid #556b2f; /* Thinner border */
+    border: 1px solid #556b2f; /* Border for highlighted day */
     border-radius: 50%;
-    padding: 5px; /* Smaller padding */
+    padding: 5px; /* Padding for highlighted day */
 }
 
 .time h2 {
-    font-size: 32px; /* Smaller font size */
+    font-size: 32px; /* Font size for time */
 }
 
 .location p {
     font-family: 'Lora', serif;
-    font-size: 14px; /* Smaller font size */
+    font-size: 14px; /* Font size for location text */
     color: #aaa;
 }
