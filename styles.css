@@ -1,16 +1,57 @@
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-family: 'Lora', serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
 }
 
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+.container {
+    text-align: center;
 }
 
-main {
-    padding: 20px;
+.header {
+    font-size: 24px;
+    color: #aaa;
+    margin-bottom: 50px;
+}
+
+.names {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+}
+
+.name.left {
+    justify-content: flex-end;
+}
+
+.name.right {
+    justify-content: flex-start;
+}
+
+.name img {
+    width: 100px;
+    height: auto;
+}
+
+.name h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 48px;
+    color: #556b2f;
+    margin: 0 20px;
+}
+
+span {
+    font-size: 48px;
+    color: #556b2f;
+    margin: 0 20px;
 }
