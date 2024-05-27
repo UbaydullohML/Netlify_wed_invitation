@@ -43,13 +43,13 @@ body {
 }
 
 .name img {
-    width: 50px; /* Smaller size for the flower images */
+    width: 100px; /* Smaller size for the flower images */
     height: auto;
 }
 
 .name h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 32px; /* Smaller font size */
+    font-size: 48px; /* Increase font size for names */
     color: #556b2f;
     margin: 0 10px;
 }
@@ -76,6 +76,7 @@ span {
 
 .calendar {
     margin-top: 10px;
+    font-size: 12px; /* Smaller font size for the calendar */
 }
 
 .calendar .month {
