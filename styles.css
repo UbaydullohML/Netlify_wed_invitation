@@ -11,10 +11,12 @@ body {
 
 .container {
     text-align: center;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1000px; /* Set a maximum width to prevent it from getting too wide on large screens */
 }
 
 .header {
-    font-size: 36px; /* Increase font size slightly for visibility */
+    font-size: 24px; /* Increase font size slightly for visibility */
     color: #aaa;
     margin-bottom: 20px;
 }
