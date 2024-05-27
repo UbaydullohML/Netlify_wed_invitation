@@ -11,8 +11,6 @@ body {
 
 .container {
     text-align: center;
-    width: 90%; /* Adjust the width as needed */
-    max-width: 1200px; /* Set a maximum width to prevent it from getting too wide on very large screens */
 }
 
 .header {
@@ -23,6 +21,7 @@ body {
 
 .names {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
@@ -33,30 +32,23 @@ body {
     align-items: center;
 }
 
-.name.left {
-    justify-content: flex-end;
-}
-
-.name.right {
-    justify-content: flex-start;
-}
-
-.name img {
-    width: 50px; /* Smaller size for the flower images */
+.name.left img,
+.name.right img {
+    width: 150px; /* Larger size for the flower images */
     height: auto;
 }
 
 .name h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 32px; /* Smaller font size */
+    font-size: 64px; /* Bigger font size for the names */
     color: #556b2f;
-    margin: 0 10px;
+    margin: 0 20px;
 }
 
-span {
-    font-size: 32px; /* Smaller font size */
+.names span {
+    font-size: 64px; /* Bigger font size for the & symbol */
     color: #556b2f;
-    margin: 0 10px;
+    margin: 20px 0; /* Add margin to separate the & symbol */
 }
 
 .details {
@@ -75,40 +67,34 @@ span {
 
 .calendar {
     margin-top: 10px;
-    width: 40%; /* Adjust the width of the calendar */
-    font-size: 10px; /* Smaller font size for the calendar */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
 }
-
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
-    font-size: 14px; /* Smaller font size */
+    font-size: 18px; /* Smaller font size */
     color: #aaa;
-    margin-bottom: 5px; /* Adjust margin bottom */
+    margin-bottom: 10px;
 }
 
 .calendar .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 2px; /* Smaller gap */
+    gap: 5px; /* Smaller gap */
     font-family: 'Lora', serif;
-    font-size: 10px; /* Smaller font size */
+    font-size: 14px; /* Smaller font size */
     color: #aaa;
 }
 
 .calendar .days span {
     text-align: center;
-    padding: 2px; /* Smaller padding */
+    padding: 5px; /* Smaller padding */
 }
 
 .calendar .days .highlight {
     color: #556b2f;
     border: 1px solid #556b2f; /* Thinner border */
     border-radius: 50%;
-    padding: 2px; /* Smaller padding */
+    padding: 5px; /* Smaller padding */
 }
 
 .time h2 {
