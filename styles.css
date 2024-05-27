@@ -75,34 +75,36 @@ span {
 
 .calendar {
     margin-top: 10px;
+    width: 40%; /* Adjust the width of the calendar */
+    font-size: 10px; /* Smaller font size for the calendar */
 }
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
-    font-size: 18px; /* Smaller font size */
+    font-size: 14px; /* Smaller font size */
     color: #aaa;
-    margin-bottom: 10px;
+    margin-bottom: 5px; /* Adjust margin bottom */
 }
 
 .calendar .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 5px; /* Smaller gap */
+    gap: 2px; /* Smaller gap */
     font-family: 'Lora', serif;
-    font-size: 14px; /* Smaller font size */
+    font-size: 10px; /* Smaller font size */
     color: #aaa;
 }
 
 .calendar .days span {
     text-align: center;
-    padding: 5px; /* Smaller padding */
+    padding: 2px; /* Smaller padding */
 }
 
 .calendar .days .highlight {
     color: #556b2f;
     border: 1px solid #556b2f; /* Thinner border */
     border-radius: 50%;
-    padding: 5px; /* Smaller padding */
+    padding: 2px; /* Smaller padding */
 }
 
 .time h2 {
@@ -113,38 +115,4 @@ span {
     font-family: 'Lora', serif;
     font-size: 14px; /* Smaller font size */
     color: #aaa;
-}
-
-/* For small screens (phones) */
-@media only screen and (max-width: 600px) {
-    .container {
-        width: 70%; /* Adjust the width for smaller screens */
-    }
-
-    .name img {
-        width: 30px; /* Smaller size for the flower images on small screens */
-    }
-
-    .name h2 {
-        font-size: 24px; /* Smaller font size for names on small screens */
-    }
-
-    span {
-        font-size: 24px; /* Smaller font size for & symbol on small screens */
-    }
-
-    .header {
-        font-size: 18px; /* Smaller font size for header on small screens */
-    }
-
-    .calendar {
-        width: 90%; /* Adjust the width for the calendar container on small screens */
-    }
-}
-
-/* For large screens */
-@media only screen and (min-width: 601px) {
-    .calendar {
-        width: 50%; /* Adjust the width for the calendar container on large screens */
-    }
 }
