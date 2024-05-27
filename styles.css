@@ -12,21 +12,21 @@ body {
 .container {
     text-align: center;
     width: 80%; /* Adjust the width as needed */
-    max-width: 1000px; /* Set a maximum width to prevent it from getting too wide on large screens */
+    max-width: 1200px; /* Set a maximum width to prevent it from getting too wide on very large screens */
 }
 
+
 .header {
-    font-size: 24px; /* Increase font size slightly for visibility */
+    font-size: 24px;
     color: #aaa;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .names {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .name {
@@ -34,23 +34,30 @@ body {
     align-items: center;
 }
 
-.name.left img,
-.name.right img {
-    width: 100px; /* Adjust image size */
+.name.left {
+    justify-content: flex-end;
+}
+
+.name.right {
+    justify-content: flex-start;
+}
+
+.name img {
+    width: 50px; /* Smaller size for the flower images */
     height: auto;
 }
 
 .name h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 48px; /* Adjust font size for the names */
+    font-size: 32px; /* Smaller font size */
     color: #556b2f;
     margin: 0 10px;
 }
 
-.names span {
-    font-size: 48px; /* Adjust font size for the & symbol */
+span {
+    font-size: 32px; /* Smaller font size */
     color: #556b2f;
-    margin: 10px 0; /* Adjust margin for better spacing */
+    margin: 0 10px;
 }
 
 .details {
@@ -63,7 +70,7 @@ body {
 
 .date h2, .time h2, .location h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 24px; /* Font size for section headers */
+    font-size: 24px; /* Smaller font size */
     color: #556b2f;
 }
 
@@ -73,7 +80,7 @@ body {
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
-    font-size: 18px; /* Font size for month */
+    font-size: 18px; /* Smaller font size */
     color: #aaa;
     margin-bottom: 10px;
 }
@@ -81,30 +88,30 @@ body {
 .calendar .days {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    gap: 5px; /* Gap between days */
+    gap: 5px; /* Smaller gap */
     font-family: 'Lora', serif;
-    font-size: 14px; /* Font size for days */
+    font-size: 14px; /* Smaller font size */
     color: #aaa;
 }
 
 .calendar .days span {
     text-align: center;
-    padding: 5px; /* Padding for days */
+    padding: 5px; /* Smaller padding */
 }
 
 .calendar .days .highlight {
     color: #556b2f;
-    border: 1px solid #556b2f; /* Border for highlighted day */
+    border: 1px solid #556b2f; /* Thinner border */
     border-radius: 50%;
-    padding: 5px; /* Padding for highlighted day */
+    padding: 5px; /* Smaller padding */
 }
 
 .time h2 {
-    font-size: 32px; /* Font size for time */
+    font-size: 32px; /* Smaller font size */
 }
 
 .location p {
     font-family: 'Lora', serif;
-    font-size: 14px; /* Font size for location text */
+    font-size: 14px; /* Smaller font size */
     color: #aaa;
 }
