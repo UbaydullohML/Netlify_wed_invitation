@@ -75,9 +75,12 @@ span {
 
 .calendar {
     margin-top: 10px;
-    width: 40%; /* Adjust the width of the calendar */
+    width: 20%; /* Adjust the width of the calendar */
     font-size: 10px; /* Smaller font size for the calendar */
+    margin-left: auto; /* Center the calendar horizontally */
+    margin-right: auto; /* Center the calendar horizontally */
 }
+
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
