@@ -11,8 +11,6 @@ body {
 
 .container {
     text-align: center;
-    width: 80%; /* Adjust the width as needed */
-    max-width: 800px; /* Set a maximum width to prevent it from getting too wide on very large screens */
 }
 
 .header {
@@ -42,13 +40,13 @@ body {
 }
 
 .name img {
-    width: 100px; /* Smaller size for the flower images */
+    width: 50px; /* Smaller size for the flower images */
     height: auto;
 }
 
 .name h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 48px; /* Increase font size for names */
+    font-size: 32px; /* Smaller font size */
     color: #556b2f;
     margin: 0 10px;
 }
@@ -75,9 +73,7 @@ span {
 
 .calendar {
     margin-top: 10px;
-    font-size: 10px; /* Smaller font size for the calendar */
 }
-
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
