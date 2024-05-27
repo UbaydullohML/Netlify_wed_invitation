@@ -21,7 +21,6 @@ body {
 
 .names {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
@@ -32,23 +31,30 @@ body {
     align-items: center;
 }
 
-.name.left img,
-.name.right img {
-    width: 150px; /* Larger size for the flower images */
+.name.left {
+    justify-content: flex-end;
+}
+
+.name.right {
+    justify-content: flex-start;
+}
+
+.name img {
+    width: 50px; /* Smaller size for the flower images */
     height: auto;
 }
 
 .name h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 64px; /* Bigger font size for the names */
+    font-size: 32px; /* Smaller font size */
     color: #556b2f;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
-.names span {
-    font-size: 64px; /* Bigger font size for the & symbol */
+span {
+    font-size: 32px; /* Smaller font size */
     color: #556b2f;
-    margin: 20px 0; /* Add margin to separate the & symbol */
+    margin: 0 10px;
 }
 
 .details {
