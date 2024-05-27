@@ -12,9 +12,8 @@ body {
 .container {
     text-align: center;
     width: 80%; /* Adjust the width as needed */
-    max-width: 1200px; /* Set a maximum width to prevent it from getting too wide on very large screens */
+    max-width: 800px; /* Set a maximum width to prevent it from getting too wide on very large screens */
 }
-
 
 .header {
     font-size: 24px;
