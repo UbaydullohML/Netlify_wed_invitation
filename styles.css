@@ -118,7 +118,7 @@ span {
 /* For small screens (phones) */
 @media only screen and (max-width: 600px) {
     .container {
-        width: 90%; /* Adjust the width for smaller screens */
+        width: 70%; /* Adjust the width for smaller screens */
     }
 
     .name img {
@@ -145,6 +145,6 @@ span {
 /* For large screens */
 @media only screen and (min-width: 601px) {
     .calendar {
-        width: 70%; /* Adjust the width for the calendar container on large screens */
+        width: 50%; /* Adjust the width for the calendar container on large screens */
     }
 }
