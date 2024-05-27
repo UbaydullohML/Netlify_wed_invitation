@@ -11,6 +11,8 @@ body {
 
 .container {
     text-align: center;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 1200px; /* Set a maximum width to prevent it from getting too wide on very large screens */
 }
 
 .header {
@@ -111,4 +113,38 @@ span {
     font-family: 'Lora', serif;
     font-size: 14px; /* Smaller font size */
     color: #aaa;
+}
+
+/* For small screens (phones) */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 90%; /* Adjust the width for smaller screens */
+    }
+
+    .name img {
+        width: 30px; /* Smaller size for the flower images on small screens */
+    }
+
+    .name h2 {
+        font-size: 24px; /* Smaller font size for names on small screens */
+    }
+
+    span {
+        font-size: 24px; /* Smaller font size for & symbol on small screens */
+    }
+
+    .header {
+        font-size: 18px; /* Smaller font size for header on small screens */
+    }
+
+    .calendar {
+        width: 90%; /* Adjust the width for the calendar container on small screens */
+    }
+}
+
+/* For large screens */
+@media only screen and (min-width: 601px) {
+    .calendar {
+        width: 70%; /* Adjust the width for the calendar container on large screens */
+    }
 }
