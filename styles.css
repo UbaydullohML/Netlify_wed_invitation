@@ -16,14 +16,14 @@ body {
 .header {
     font-size: 24px;
     color: #aaa;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .names {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .name {
@@ -40,34 +40,34 @@ body {
 }
 
 .name img {
-    width: 100px;
+    width: 50px; /* Smaller size for the flower images */
     height: auto;
 }
 
 .name h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 48px;
+    font-size: 32px; /* Smaller font size */
     color: #556b2f;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 span {
-    font-size: 48px;
+    font-size: 32px; /* Smaller font size */
     color: #556b2f;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .details {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .date, .time, .location {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .date h2, .time h2, .location h2 {
     font-family: 'Great Vibes', cursive;
-    font-size: 36px;
+    font-size: 24px; /* Smaller font size */
     color: #556b2f;
 }
 
@@ -77,39 +77,38 @@ span {
 
 .calendar .month {
     font-family: 'Great Vibes', cursive;
-    font-size: 24px;
+    font-size: 18px; /* Smaller font size */
     color: #aaa;
     margin-bottom: 10px;
 }
 
 .calendar .days {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px; /* Smaller gap */
     font-family: 'Lora', serif;
-    font-size: 18px;
+    font-size: 14px; /* Smaller font size */
     color: #aaa;
 }
 
 .calendar .days span {
-    width: 30px;
     text-align: center;
-    margin: 2px;
+    padding: 5px; /* Smaller padding */
 }
 
 .calendar .days .highlight {
     color: #556b2f;
-    border: 2px solid #556b2f;
+    border: 1px solid #556b2f; /* Thinner border */
     border-radius: 50%;
-    padding: 2px;
+    padding: 5px; /* Smaller padding */
 }
 
 .time h2 {
-    font-size: 48px;
+    font-size: 32px; /* Smaller font size */
 }
 
 .location p {
     font-family: 'Lora', serif;
-    font-size: 18px;
+    font-size: 14px; /* Smaller font size */
     color: #aaa;
 }
